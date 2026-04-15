@@ -54,3 +54,6 @@ Pre-trained files:
 
 movies.pkl
 similarity.pkl
+-----
+frontend:cd frontend ;npm run dev
+backend:cd backend;python -m uvicorn main:app --reload --host 0.0.0.0 --port 8000
