@@ -46,5 +46,4 @@ This project is a production-ready full-stack application that:
 
 ---
 
-## 📂 Project Structure
 
