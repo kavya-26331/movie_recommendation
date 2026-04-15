@@ -46,4 +46,9 @@ This project is a production-ready full-stack application that:
 
 ---
 
+🤖 ML Models
 
+Pre-trained files:
+
+movies.pkl
+similarity.pkl
