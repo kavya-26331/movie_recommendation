@@ -1,1 +1,50 @@
-# Movie Recommendation System&#10;&#10;## Overview&#10;Full-stack app using TMDB API for movie data, collaborative filtering for recommendations (pre-trained similarity matrix). Robust backend with retries/SSL fixes/fallbacks. Vite+React+Tailwind frontend.&#10;&#10;## Backend&#10;- `uvicorn backend.main:app --reload`&#10;- POST /recommend {movie_name: str}&#10;&#10;## Frontend&#10;- `cd frontend &amp;&amp; npm install &amp;&amp; npm run dev`&#10;&#10;## Models&#10;Regenerate: Run backend data fetch script if needed (movies.pkl, similarity.pkl).&#10;&#10;## Setup&#10;See TODO.md for Git status.
+# 🎬 Movie Recommendation System (Full Stack)
+
+A full-stack Movie Recommendation System that suggests similar movies using machine learning and real-time movie data from the TMDB API.
+
+---
+
+## 📌 Overview
+
+This project is a production-ready full-stack application that:
+- Uses TMDB API for movie data
+- Implements content-based / collaborative filtering
+- Provides real-time recommendations
+- Includes a robust backend with retry mechanisms, SSL fixes, and fallbacks
+- Features a modern frontend built with React and Tailwind CSS
+
+---
+
+## 🧠 Tech Stack
+
+### 🔹 Backend
+- Python
+- FastAPI
+- Uvicorn
+- Scikit-learn
+- Pickle (Model Storage)
+
+### 🔹 Frontend
+- React (Vite)
+- Tailwind CSS
+- Axios
+
+### 🔹 Machine Learning
+- Content-Based Filtering
+- Cosine Similarity
+- Pre-trained similarity matrix
+
+---
+
+## 🚀 Features
+
+- 🔍 Search for any movie
+- 🎯 Get top 5–10 similar recommendations
+- ⚡ Fast API response using pre-trained model
+- 🔁 Retry & fallback support in backend
+- 🎨 Modern UI with responsive design
+
+---
+
+## 📂 Project Structure
+
