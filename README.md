@@ -35,6 +35,8 @@ This project is a production-ready full-stack application that:
 - Pre-trained similarity matrix
 
 ---
+### kaggle datasets
+https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata   
 
 ## 🚀 Features
 
