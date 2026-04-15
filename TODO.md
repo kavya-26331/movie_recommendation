@@ -1,17 +1,1 @@
-# Robust TMDB Fix - Implementation Plan ✅ COMPLETE
-
-## Steps:
-
-1. [x] Update backend/requirements.txt: Add `certifi>=2024.8.30`
-2. [x] Edit backend/main.py:
-   - [x] Add new imports (certifi, HTTPAdapter, Retry)
-   - [x] Add global retry session
-   - [x] Add fallback() function
-   - [x] Replace fetch_movie_details() entirely
-   - [x] Optimize recommend(): Change str.contains to exact ==
-3. [x] Install dependencies: `pip install -r backend/requirements.txt` (certifi satisfied)
-4. [x] Test backend: Run uvicorn and POST to /recommend (loads successfully)
-5. [x] Verify frontend: No crashes, fallback works offline
-6. [x] [DONE] Attempt completion
-
-Backend now has Netflix-level robustness: retries, SSL fix, fallback data on any TMDB failure, faster exact matching.
+# Git Repo Setup - Steps&#10;&#10;1. [ ] Create/update TODO.md&#10;2. [ ] Update .gitignore for models/\*.pkl (ignore data)&#10;3. [ ] git add .gitattributes models/movies.pkl (temp commit data or reset)&#10;4. [ ] Update README.md with project description&#10;5. [ ] git add/commit/push all&#10;6. [ ] Verify on GitHub&#10;7. [ ] Mark complete & attempt_completion
