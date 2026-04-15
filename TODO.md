@@ -1,1 +1,23 @@
-# Git Repo Setup - ✅ COMPLETE\n\n1. [x] Create/update TODO.md\n2. [x] Update .gitignore for models/\*.pkl (ignore data)\n3. [x] git checkout -- models/movies.pkl (discard changes, ignore)\n4. [x] Update README.md with project description\n5. [x] git add/commit/push all (now synced)\n6. [x] Verify clean status\n7. [x] Mark complete
+1. Problem Definition
+
+Recommend similar movies based on content (genres, keywords, cast, etc.)
+
+2. Data Collection
+
+Download from Kaggle using kaggle.json
+
+3. Data Preprocessing
+Merge datasets
+Select useful features
+Clean text
+Convert JSON-like columns
+4. Feature Engineering
+Combine features into a single “tag”
+Apply TF-IDF / CountVectorizer
+5. Model Building
+Use Cosine Similarity
+6. Evaluation
+Check recommendation quality manually
+7. Deployment
+Save model using .pkl
+Use in VS Code / Fastapi /react
